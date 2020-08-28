@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Lamborghini Terzo Millennio</title>
+  <!-- Load Google Fonts -->
+   <!-- Load Styles -->
+  <link href="../css/styles.css" rel="stylesheet">
+</head>
+<body>
+ 
+  <!-- HTML Follows BEM naming conventions 
+  IDs are only used for sections to connect menu achors to sections -->
+  <header class="page__header">
+    <nav class="navbar__menu">
+
+      <!-- Navigation starts as empty UL that will be populated with JS -->
+      <ul id="navbar__list">
+        
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div id="title">
+    <header class="main__hero">
+      <h1 id="carName">Lamborghini<br>Terzo Millennio</h1>
+      
+    </header>
+  </div>
+    <!-- Each Section has an ID (used for the anchor) and 
+    a data attribute that will populate the li node.
+    Adding more sections will automatically populate nav.
+    The first section is set to active class by default -->
+    <section id="section1" data-nav="Energy" class="your-active-class">
+      <div class="landing__container">
+        <h2>Energy</h2>
+        <p>The power source is electricity instead of gasoline. Electrical systems are extremely efficient, allowing kinetic energy to be recovered to generate power. In order to exploit the opportunities offered by electric drivetrains, the battery system must be symmetrical and oriented toward power in order to ensure high levels of performance and the greatest possible level of energy regeneration. Lamborghini aims to develop an innovative supercapacitor that is able to fill the gap, in terms of energy density, with existing batteries.</p>
+        <p>Aliquam a convallis justo. Vivamus venenatis, erat eget pulvinar gravida, ipsum lacus aliquet velit, vel luctus diam ipsum a diam. Cras eu tincidunt arcu, vitae rhoncus purus. Vestibulum fermentum consectetur porttitor. Suspendisse imperdiet porttitor tortor, eget elementum tortor mollis non.</p>
+      </div>
+      
+    </section>
+
+   
+    
+    <section id="section2" data-nav="Architecture" class>
+      <div class="landing__container">
+        <h2>Vehicle Architecture</h2>
+        <p>Among the advantages of an electrical propulsion system is the possibility to power a system of electrical components through the use of cables. Lamborghini intends to exploit this opportunity to generate torque directly at the wheels. The challenge consists of creating a technology that allows the power density positioned inside the wheels to be increased to the level required by an all-wheel-drive super sports car, while simultaneously keeping unsprung mass under control.</p>
+
+        <p>Aliquam a convallis justo. Vivamus venenatis, erat eget pulvinar gravida, ipsum lacus aliquet velit, vel luctus diam ipsum a diam. Cras eu tincidunt arcu, vitae rhoncus purus. Vestibulum fermentum consectetur porttitor. Suspendisse imperdiet porttitor tortor, eget elementum tortor mollis non.</p>
+      </div>
+    </section>
+    <section id="section3" data-nav="Sound" class>
+      <div class="landing__container">
+        <h2>Sound & Emotion</h2>
+        <p>The adoption of an electric drivetrain demands the creation of a new sonic signature to replace that of the current V12 engine. Thorough investigation is required to assess the advantages deriving from the new powertrain, while leaving behind no opportunity to generate a voice unique to  the Terzo Millennio. The visionary design is the fullest expression of a completely new technology, incorporating redesigned aerodynamics, architecture and powertrain. </p>
+
+        <p>Aliquam a convallis justo. Vivamus venenatis, erat eget pulvinar gravida, ipsum lacus aliquet velit, vel luctus diam ipsum a diam. Cras eu tincidunt arcu, vitae rhoncus purus. Vestibulum fermentum consectetur porttitor. Suspendisse imperdiet porttitor tortor, eget elementum tortor mollis non.</p>
+      </div>
+    </section>
+    <section id="section4" data-nav="Material">
+      <div class="landing__container">
+        <h2>Materials Innovation</h2>
+        <p>The design objectives include a reduction in weight and an increase in the availability of electrical energy through the use of composite structural materials for storing electricity, such as a rechargeable battery. The goal is to perfect nanomaterial technology, distributing nanocharges into the CFK panels that comprise the vehicle’s body and components, which will therefore act as electrical storage devices.</p>
+
+        <p>Aliquam a convallis justo. Vivamus venenatis, erat eget pulvinar gravida, ipsum lacus aliquet velit, vel luctus diam ipsum a diam. Cras eu tincidunt arcu, vitae rhoncus purus. Vestibulum fermentum consectetur porttitor. Suspendisse imperdiet porttitor tortor, eget elementum tortor mollis non.</p>
+      </div>
+    </section>
+    <a href="#top" id="link-to-top">
+      <botton id="back-to-top">Top</botton>
+    </a>
+  </main>
+  <footer class="page__footer">
+    <p>Created by Rahul</p>
+  </footer>
+  <script src="../js/app.js"></script>
+
+</body>
+</html>
