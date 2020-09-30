@@ -5,6 +5,6 @@ Created a multi-page blog website, using best practices for content and page sty
 
 ![MainPage](https://github.com/iamrahull/Personal-Blog/blob/master/Project%20Screenshots/FrontPage1.jpg?raw=true)
 
-![MainPage](https://github.com/iamrahull/Personal-Blog/blob/master/Project%20Screenshots/FrontPage%20with%20Hover%20Animation.jpg?raw=true)
+![Hover Animation](https://github.com/iamrahull/Personal-Blog/blob/master/Project%20Screenshots/FrontPage%20with%20Hover%20Animation.jpg?raw=true)
 
 ![Responsiveness Showcase](https://github.com/iamrahull/Personal-Blog/blob/master/Project%20Screenshots/FrontPage%20Responsiveness%20Showcase.jpg?raw=true)
