@@ -1,230 +1,170 @@
 @import url("navigation.css");
-.tileContainer
-{
-display: grid;
-height: 190vh;
-
-grid-template-columns: repeat(10%,10);
-grid-template-rows: 5% 10% 10% 10% 5% 15% 15% 10% 15% 5%;
-grid-gap : 0px;
-
-grid-template-areas:
- "navigation navigation navigation navigation navigation navigation navigation navigation navigation navigation"
- "first first first first first first second second second second"
- "first first first first first first second second second second"
- "first first first first first first second second second second"
- "first first first first first first second second second second"
- "third third third third third third second second second second"
- "third third third third third third second second second second"
- "four four four five five five five six six six"
- "four four four five five five five six six six"
- "footer footer footer footer footer footer footer footer footer footer";
-  padding: 0px;
+.tileContainer {
+	display: grid;
+	height: 190vh;
+	grid-template-columns: repeat(10%, 10);
+	grid-template-rows: 5% 10% 10% 10% 5% 15% 15% 10% 18% 2%;
+    grid-gap: 0px;
+    grid-template-areas:
+        "navigation navigation navigation navigation navigation navigation navigation navigation navigation navigation"
+        "first first first first first first second second second second"
+        "first first first first first first second second second second"
+        "first first first first first first second second second second"
+        "first first first first first first second second second second"
+        "third third third third third third second second second second"
+        "third third third third third third second second second second"
+        "four four four five five five five six six six"
+        "four four four five five five five six six six"
+        "footer footer footer footer footer footer footer footer footer footer";
+    padding: 0px;
 	margin: 0px;
 	border: 0px;
-
 }
 
-div.car1
-{
-    grid-area: first;
-    position: relative;
-    background-image: url("../img/lamborghini-terzo.jpeg");
-    background-size: cover;
-    
-    
+div.car1 {
+	grid-area: first;
+	position: relative;
+	background-image: url("../img/lamborghini-terzo.jpeg");
+	background-size: cover;
 }
 
-div.car2
-{
-    grid-area: second;
-    position: relative;
-    background-image: url("../img/agera_rs.jpg");
-    background-size: cover;
-    
+div.car2 {
+	grid-area: second;
+	position: relative;
+	background-image: url("../img/agera_rs.jpg");
+	background-size: cover;
 }
 
-div.car3
-{
-    grid-area: third;
-    position: relative;
-    background-image: url("../img/lambo1.jpg");
-    background-size: cover;
-
-    
+div.car3 {
+	grid-area: third;
+	position: relative;
+	background-image: url("../img/lambo1.jpg");
+	background-size: cover;
 }
 
-div.car4
-{
-    grid-area: four;
-    position: relative;
-    background-image: url("../img/wmoters_fenyr.png");
-    background-size: cover;
-    
+div.car4 {
+	grid-area: four;
+	position: relative;
+	background-image: url("../img/wmoters_fenyr.png");
+	background-size: cover;
 }
 
-div.car5
-{
-    grid-area: five;
-    position: relative;
-    background-image: url("../img/bugatti-divo.jpg");
-    background-size: cover;
-    
+div.car5 {
+	grid-area: five;
+	position: relative;
+	background-image: url("../img/bugatti-divo.jpg");
+	background-size: cover;
 }
 
-div.car6
-{
-    grid-area: six;
-    position: relative;
-    background-image: url("../img/bmw_vision_m.jpg");
-    background-size: cover;
-    
+div.car6 {
+	grid-area: six;
+	position: relative;
+	background-image: url("../img/bmw_vision_m.jpg");
+	background-size: cover;
 }
-body{
-    margin: 0px;
-    background-image: linear-gradient(to left bottom, #cb3641, #b72d5b, #98326d, #733873, #4e3b6f, #463d6e, #3d3f6d, #36406b, #444777, #544d82, #64548c, #755a96);
+
+body {
+	margin: 0px;
+	background-image: linear-gradient(to left bottom, #cb3641, #b72d5b, #98326d, #733873, #4e3b6f, #463d6e, #3d3f6d, #36406b, #444777, #544d82, #64548c, #755a96);
 }
+
+
 /* change start*/
-.companyName
-{
-    transition: 1.31s;
-    color:#fff;
-    position: absolute;
+
+.companyName {
+	transition: 1.31s;
+	color: #fff;
+	position: absolute;
 	bottom: 9px;
-    text-align: right;
-    line-height: 40px;
-    padding-top: 5px;
-    right: 0px;
-    padding-right: 12px;
-    padding-left: 12px;
-    font: bold 25px Arial, Sans-Serif;
-	
+	text-align: right;
+	line-height: 40px;
+	padding-top: 5px;
+	right: 0px;
+	padding-right: 12px;
+	padding-left: 12px;
+	font: bold 25px Arial, Sans-Serif;
 	background: rgba(0, 0, 0, 0.6);
-	
 }
 
-.companyName:hover
-{
-    
-    padding-left: 15px;
-    padding-right:15px;
-    padding-top: 8px;
+.companyName:hover {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 8px;
 	bottom: 8px;
-    right: 0px;
-    font-size: 30px;
-    padding-bottom: 3px;
-    cursor: pointer;
-   
-}
-.companyName:hover .modelName
-{
-    font-size: 25px;
-    transition: 1.31s;
+	right: 0px;
+	font-size: 30px;
+	padding-bottom: 3px;
+	cursor: pointer;
 }
 
-.modelName
-{
-    font: bold 20px Arial, Sans-Serif;
-
-    line-height: 40px;
-    color: #fff;
-    transition: 1.5s;
+.companyName:hover .modelName {
+	font-size: 25px;
+	transition: 1.31s;
 }
 
-.companyName:hover #bugatti
-{
-
-    color: rgb(0, 136, 248);
-    
-
-}
-.companyName:hover #wMoter
-{
-    color:rgb(9, 23, 105);
-}
-.companyName:hover #bmw
-{
-    color:rgb(228, 45, 13);
-}
-.companyName:hover .lambo
-{
-    color: rgb(231, 119, 67);
-}
-.companyName:hover #koen
-{
-    color: rgb(248, 195, 19);
+.modelName {
+	font: bold 20px Arial, Sans-Serif;
+	line-height: 40px;
+	color: #fff;
+	transition: 1.5s;
 }
 
-
-@media (max-width: 768px)
-{
-    
-        .tileContainer
-        {
-            display: grid;
-            height: 290vh;
-            grid-template-columns: 100%;
-            grid-template-rows: 3% 15% 22% 13% 15% 13% 15% 5%;
-            grid-gap: 0px;
-            grid-template-areas:
-            "navigation"
-            "first"
-            "second"
-            "third"
-            "four"
-            "five"
-            "six"
-            "footer";
-            padding: 0px;
-	        margin: 0px;
-	        border: 0px;
-
-
-        }
-        div.car2
-    {
-    grid-area: second;
-    position: relative;
-    background-image: url("../img/agera_rs2.jpg");
-    background-size: cover;
-    
-    }
-
+.companyName:hover #bugatti {
+	color: rgb(0, 136, 248);
 }
 
+.companyName:hover #wMoter {
+	color: rgb(9, 23, 105);
+}
 
-@media (min-width:768px) and (max-width: 1068px)
-{
-    
-        .tileContainer
-        {
-            display: grid;
-            height: 450vh;
-            grid-template-columns: 100%;
-            grid-template-rows: 3% 15% 22% 13% 15% 13% 15% 5%;
-            grid-gap: 0px;
-            grid-template-areas:
-            "navigation"
-            "first"
-            "second"
-            "third"
-            "four"
-            "five"
-            "six"
-            "footer";
-            padding: 0px;
-	        margin: 0px;
-	        border: 0px;
+.companyName:hover #bmw {
+	color: rgb(228, 45, 13);
+}
 
+.companyName:hover .lambo {
+	color: rgb(231, 119, 67);
+}
 
-        }
-        div.car2
-    {
-    grid-area: second;
-    position: relative;
-    background-image: url("../img/agera_rs2.jpg");
-    background-size: cover;
-    
-    }
+.companyName:hover #koen {
+	color: rgb(248, 195, 19);
+}
 
+@media (max-width: 768px) {
+	.tileContainer {
+		display: grid;
+		height: 290vh;
+		grid-template-columns: 100%;
+		grid-template-rows: 3% 15% 22% 13% 15% 13% 15% 5%;
+		grid-gap: 0px;
+		grid-template-areas: "navigation" "first" "second" "third" "four" "five" "six" "footer";
+		padding: 0px;
+		margin: 0px;
+		border: 0px;
+	}
+	div.car2 {
+		grid-area: second;
+		position: relative;
+		background-image: url("../img/agera_rs2.jpg");
+		background-size: cover;
+	}
+}
+
+@media (min-width:768px) and (max-width: 1068px) {
+	.tileContainer {
+		display: grid;
+		height: 450vh;
+		grid-template-columns: 100%;
+		grid-template-rows: 3% 15% 22% 13% 15% 13% 15% 5%;
+		grid-gap: 0px;
+		grid-template-areas: "navigation" "first" "second" "third" "four" "five" "six" "footer";
+		padding: 0px;
+		margin: 0px;
+		border: 0px;
+	}
+	div.car2 {
+		grid-area: second;
+		position: relative;
+		background-image: url("../img/agera_rs2.jpg");
+		background-size: cover;
+	}
 }
