@@ -9,4 +9,4 @@ Created a multi-page blog website, using best practices for content and page sty
 
 ![Responsiveness Showcase](https://github.com/iamrahull/Personal-Blog/blob/master/Project%20Screenshots/FrontPage%20Responsiveness%20Showcase.jpg?raw=true)
 
-## <a name="LiveView" href="https://blogspot-by-cesur.netlify.app/index.html">👉 Click Here to view the hosted project</a>
+## 👉<a name="LiveView" href="https://blogspot-by-cesur.netlify.app/index.html">Click Here to view the hosted project</a>👈
